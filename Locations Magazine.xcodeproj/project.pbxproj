@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* Locations_MagazineAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* Locations_MagazineAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		2899E5220DE3E06400AC0155 /* Locations_MagazineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Locations_MagazineViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* Locations_MagazineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Locations_MagazineViewController.m */; };
+		DD3DF8071314C38500A31D39 /* rules.html in Resources */ = {isa = PBXBuildFile; fileRef = DD3DF8061314C38500A31D39 /* rules.html */; };
+		DD3DF80B1314C3A500A31D39 /* RulesAndRegulations.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3DF8091314C3A500A31D39 /* RulesAndRegulations.m */; };
+		DD3DF80C1314C3A500A31D39 /* RulesAndRegulations.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD3DF80A1314C3A500A31D39 /* RulesAndRegulations.xib */; };
+		DD4145A212DA76DC00E4B983 /* AccountScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4145A012DA76DC00E4B983 /* AccountScrollView.m */; };
+		DD4145A312DA76DC00E4B983 /* AccountScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4145A112DA76DC00E4B983 /* AccountScrollView.xib */; };
+		DD41488112E3951500E4B983 /* BridalShowMap.m in Sources */ = {isa = PBXBuildFile; fileRef = DD41487F12E3951500E4B983 /* BridalShowMap.m */; };
+		DD41488212E3951500E4B983 /* BridalShowMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD41488012E3951500E4B983 /* BridalShowMap.xib */; };
+		DD4148DC12E3B6AC00E4B983 /* HoneymoonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4148DA12E3B6AC00E4B983 /* HoneymoonView.m */; };
+		DD4148DD12E3B6AC00E4B983 /* HoneymoonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4148DB12E3B6AC00E4B983 /* HoneymoonView.xib */; };
+		DD414E7E12EA606D00E4B983 /* Loc-background.png in Resources */ = {isa = PBXBuildFile; fileRef = DD414E7D12EA606D00E4B983 /* Loc-background.png */; };
+		DD415ACC12F8FBF800E4B983 /* mention.png in Resources */ = {isa = PBXBuildFile; fileRef = DD415ACB12F8FBF800E4B983 /* mention.png */; };
+		DD415C0712FDA7B200E4B983 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD415C0612FDA7B200E4B983 /* IOKit.framework */; };
+		DD415E80130382EC00E4B983 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD415E7F130382EC00E4B983 /* CoreGraphics.framework */; };
+		DD415E9F1303830300E4B983 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD415E9E1303830300E4B983 /* MapKit.framework */; };
+		DD415EAB1303831D00E4B983 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD415EAA1303831D00E4B983 /* MessageUI.framework */; };
+		DD415F051303834700E4B983 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD415F041303834700E4B983 /* UIKit.framework */; };
+		DD6528DE13272B3300CD2614 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6528DB13272B3300CD2614 /* Icon-72.png */; };
+		DD6528DF13272B3300CD2614 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6528DC13272B3300CD2614 /* Icon.png */; };
+		DD6528E013272B3300CD2614 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD6528DD13272B3300CD2614 /* Icon@2x.png */; };
+		DD97630D12BD62FC00687706 /* GetTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = DD97630C12BD62FC00687706 /* GetTextData.m */; };
+		DD9763BD12BE8B8F00687706 /* SuperClubsWin.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9763BC12BE8B8F00687706 /* SuperClubsWin.png */; };
+		DD9763D312BE900900687706 /* bridalshowthumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DD9763D212BE900900687706 /* bridalshowthumb.jpg */; };
+		DD9763FF12BEA31200687706 /* blue-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9763FD12BEA31200687706 /* blue-hover.png */; };
+		DD97640012BEA31200687706 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = DD9763FE12BEA31200687706 /* blue.png */; };
+		DD97640812BEA62800687706 /* green-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = DD97640612BEA62800687706 /* green-hover.png */; };
+		DD97640912BEA62800687706 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = DD97640712BEA62800687706 /* green.png */; };
+		DD97640F12BEA6EE00687706 /* yellow-hover.png in Resources */ = {isa = PBXBuildFile; fileRef = DD97640D12BEA6EE00687706 /* yellow-hover.png */; };
+		DD97641012BEA6EE00687706 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = DD97640E12BEA6EE00687706 /* yellow.png */; };
+		DD97657712C576D500687706 /* BridalCompanies.m in Sources */ = {isa = PBXBuildFile; fileRef = DD97657612C576D500687706 /* BridalCompanies.m */; };
+		DD9765E712C6E31E00687706 /* BridalShowsList.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9765E512C6E31E00687706 /* BridalShowsList.m */; };
+		DD9765E812C6E31E00687706 /* BridalShowsList.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9765E612C6E31E00687706 /* BridalShowsList.xib */; };
+		DD9765ED12C6E34300687706 /* BridalShowDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9765EB12C6E34300687706 /* BridalShowDetails.m */; };
+		DD9765EE12C6E34300687706 /* BridalShowDetails.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD9765EC12C6E34300687706 /* BridalShowDetails.xib */; };
+		DD9765F412C70A9700687706 /* BridalShows.m in Sources */ = {isa = PBXBuildFile; fileRef = DD9765F312C70A9700687706 /* BridalShows.m */; };
+		DD97693F12C84ACC00687706 /* Cellx.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD97693E12C84ACC00687706 /* Cellx.xib */; };
+		DDB9359612AB3287003B9E68 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB9359512AB3287003B9E68 /* Annotation.m */; };
+		DDB9359B12AB33B6003B9E68 /* GeoCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB9359A12AB33B6003B9E68 /* GeoCoder.m */; };
+		DDB9383412AC614A003B9E68 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB9383312AC614A003B9E68 /* RegexKitLite.m */; };
+		DDEA5E141294B9BE005ACF4D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DDEA5E131294B9BE005ACF4D /* Default.png */; };
+		DDEA655D12989718005ACF4D /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA655B12989718005ACF4D /* NavigationController.m */; };
+		DDEA655E12989718005ACF4D /* NavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEA655C12989718005ACF4D /* NavigationController.xib */; };
+		DDEA683A1299B92F005ACF4D /* LocAcc.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA68391299B92F005ACF4D /* LocAcc.m */; };
+		DDEA6AFD129EFD17005ACF4D /* AccountDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA6AFB129EFD17005ACF4D /* AccountDetailsViewController.m */; };
+		DDEA6AFE129EFD17005ACF4D /* AccountDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEA6AFC129EFD17005ACF4D /* AccountDetailsViewController.xib */; };
+		DDEA6BDA129F2831005ACF4D /* GetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA6BD9129F2831005ACF4D /* GetImage.m */; };
+		DDEA6C4F129F3B97005ACF4D /* AccountImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA6C4D129F3B97005ACF4D /* AccountImageViewController.m */; };
+		DDEA6C50129F3B97005ACF4D /* AccountImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEA6C4E129F3B97005ACF4D /* AccountImageViewController.xib */; };
+		DDEA6EF912A06B5F005ACF4D /* WinAHoneymoonForm.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA6EF712A06B5F005ACF4D /* WinAHoneymoonForm.m */; };
+		DDEA6EFA12A06B5F005ACF4D /* WinAHoneymoonForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEA6EF812A06B5F005ACF4D /* WinAHoneymoonForm.xib */; };
+		DDEA70FD12A2217B005ACF4D /* AccountEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA70FB12A2217B005ACF4D /* AccountEmail.m */; };
+		DDEA70FE12A2217B005ACF4D /* AccountEmail.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEA70FC12A2217B005ACF4D /* AccountEmail.xib */; };
+		DDEA72C312A32C3B005ACF4D /* AccountMap.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEA72C112A32C3B005ACF4D /* AccountMap.m */; };
+		DDEA72C412A32C3B005ACF4D /* AccountMap.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDEA72C212A32C3B005ACF4D /* AccountMap.xib */; };
+		DDFE98B6128F1455001EF10F /* AboutUs.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE98B4128F1455001EF10F /* AboutUs.m */; };
+		DDFE98B7128F1455001EF10F /* AboutUs.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE98B5128F1455001EF10F /* AboutUs.xib */; };
+		DDFE9943128F39CA001EF10F /* redButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DDFE9942128F39CA001EF10F /* redButton.png */; };
+		DDFE9E59128F5165001EF10F /* SearchSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE9E57128F5165001EF10F /* SearchSiteViewController.m */; };
+		DDFE9E5A128F5165001EF10F /* SearchSiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE9E58128F5165001EF10F /* SearchSiteViewController.xib */; };
+		DDFE9E90128F54D3001EF10F /* SearchCountyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE9E8E128F54D3001EF10F /* SearchCountyViewController.m */; };
+		DDFE9E91128F54D3001EF10F /* SearchCountyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE9E8F128F54D3001EF10F /* SearchCountyViewController.xib */; };
+		DDFE9EF8128F5F6E001EF10F /* WinAHoneymoonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE9EF6128F5F6E001EF10F /* WinAHoneymoonViewController.m */; };
+		DDFE9EF9128F5F6E001EF10F /* WinAHoneymoonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE9EF7128F5F6E001EF10F /* WinAHoneymoonViewController.xib */; };
+		DDFE9EFD128F5F8A001EF10F /* SearchServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE9EFB128F5F8A001EF10F /* SearchServicesViewController.m */; };
+		DDFE9EFE128F5F8A001EF10F /* SearchServicesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE9EFC128F5F8A001EF10F /* SearchServicesViewController.xib */; };
+		DDFE9F02128F5FA6001EF10F /* SearchCaterersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE9F00128F5FA6001EF10F /* SearchCaterersViewController.m */; };
+		DDFE9F03128F5FA6001EF10F /* SearchCaterersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE9F01128F5FA6001EF10F /* SearchCaterersViewController.xib */; };
+		DDFE9F32128F6318001EF10F /* FindABridalShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE9F30128F6318001EF10F /* FindABridalShowViewController.m */; };
+		DDFE9F33128F6318001EF10F /* FindABridalShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFE9F31128F6318001EF10F /* FindABridalShowViewController.xib */; };
+		DDFE9F69128F956D001EF10F /* WebServices.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFE9F68128F956D001EF10F /* WebServices.m */; };
+		DDFEA19912908BE4001EF10F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEA19812908BE4001EF10F /* Reachability.m */; };
+		DDFEA1B812908D74001EF10F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDFEA1B712908D74001EF10F /* SystemConfiguration.framework */; };
+		DDFEA2A91290A5F6001EF10F /* County.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEA2A81290A5F6001EF10F /* County.m */; };
+		DDFEA49A12922A40001EF10F /* SelectSiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFEA49812922A40001EF10F /* SelectSiteViewController.m */; };
+		DDFEA49B12922A40001EF10F /* SelectSiteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDFEA49912922A40001EF10F /* SelectSiteViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* Locations_MagazineAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locations_MagazineAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* Locations_MagazineAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Locations_MagazineAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Event Locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Event Locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2899E5210DE3E06400AC0155 /* Locations_MagazineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Locations_MagazineViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* Locations_MagazineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Locations_MagazineViewController.h; path = Classes/Locations_MagazineViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* Locations_MagazineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Locations_MagazineViewController.m; path = Classes/Locations_MagazineViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Locations_Magazine_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Locations_Magazine_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Locations_Magazine-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Locations_Magazine-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DD3DF8061314C38500A31D39 /* rules.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = rules.html; sourceTree = "<group>"; };
+		DD3DF8081314C3A500A31D39 /* RulesAndRegulations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RulesAndRegulations.h; sourceTree = "<group>"; };
+		DD3DF8091314C3A500A31D39 /* RulesAndRegulations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RulesAndRegulations.m; sourceTree = "<group>"; };
+		DD3DF80A1314C3A500A31D39 /* RulesAndRegulations.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RulesAndRegulations.xib; sourceTree = "<group>"; };
+		DD41459F12DA76DC00E4B983 /* AccountScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountScrollView.h; sourceTree = "<group>"; };
+		DD4145A012DA76DC00E4B983 /* AccountScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountScrollView.m; sourceTree = "<group>"; };
+		DD4145A112DA76DC00E4B983 /* AccountScrollView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountScrollView.xib; sourceTree = "<group>"; };
+		DD41487E12E3951500E4B983 /* BridalShowMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridalShowMap.h; sourceTree = "<group>"; };
+		DD41487F12E3951500E4B983 /* BridalShowMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridalShowMap.m; sourceTree = "<group>"; };
+		DD41488012E3951500E4B983 /* BridalShowMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BridalShowMap.xib; sourceTree = "<group>"; };
+		DD4148D912E3B6AC00E4B983 /* HoneymoonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HoneymoonView.h; sourceTree = "<group>"; };
+		DD4148DA12E3B6AC00E4B983 /* HoneymoonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HoneymoonView.m; sourceTree = "<group>"; };
+		DD4148DB12E3B6AC00E4B983 /* HoneymoonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HoneymoonView.xib; sourceTree = "<group>"; };
+		DD414E7D12EA606D00E4B983 /* Loc-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Loc-background.png"; sourceTree = "<group>"; };
+		DD415ACB12F8FBF800E4B983 /* mention.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mention.png; sourceTree = "<group>"; };
+		DD415C0612FDA7B200E4B983 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		DD415E7F130382EC00E4B983 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD415E9E1303830300E4B983 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DD415EAA1303831D00E4B983 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DD415F041303834700E4B983 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD6528DB13272B3300CD2614 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		DD6528DC13272B3300CD2614 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DD6528DD13272B3300CD2614 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		DD97630B12BD62FC00687706 /* GetTextData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetTextData.h; sourceTree = "<group>"; };
+		DD97630C12BD62FC00687706 /* GetTextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetTextData.m; sourceTree = "<group>"; };
+		DD9763BC12BE8B8F00687706 /* SuperClubsWin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SuperClubsWin.png; sourceTree = "<group>"; };
+		DD9763D212BE900900687706 /* bridalshowthumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bridalshowthumb.jpg; sourceTree = "<group>"; };
+		DD9763FD12BEA31200687706 /* blue-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-hover.png"; sourceTree = "<group>"; };
+		DD9763FE12BEA31200687706 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blue.png; sourceTree = "<group>"; };
+		DD97640612BEA62800687706 /* green-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-hover.png"; sourceTree = "<group>"; };
+		DD97640712BEA62800687706 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		DD97640D12BEA6EE00687706 /* yellow-hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-hover.png"; sourceTree = "<group>"; };
+		DD97640E12BEA6EE00687706 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		DD97657512C576D500687706 /* BridalCompanies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridalCompanies.h; sourceTree = "<group>"; };
+		DD97657612C576D500687706 /* BridalCompanies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridalCompanies.m; sourceTree = "<group>"; };
+		DD9765E412C6E31E00687706 /* BridalShowsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridalShowsList.h; sourceTree = "<group>"; };
+		DD9765E512C6E31E00687706 /* BridalShowsList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridalShowsList.m; sourceTree = "<group>"; };
+		DD9765E612C6E31E00687706 /* BridalShowsList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BridalShowsList.xib; sourceTree = "<group>"; };
+		DD9765EA12C6E34300687706 /* BridalShowDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridalShowDetails.h; sourceTree = "<group>"; };
+		DD9765EB12C6E34300687706 /* BridalShowDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridalShowDetails.m; sourceTree = "<group>"; };
+		DD9765EC12C6E34300687706 /* BridalShowDetails.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BridalShowDetails.xib; sourceTree = "<group>"; };
+		DD9765F212C70A9700687706 /* BridalShows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridalShows.h; sourceTree = "<group>"; };
+		DD9765F312C70A9700687706 /* BridalShows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BridalShows.m; sourceTree = "<group>"; };
+		DD97693E12C84ACC00687706 /* Cellx.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Cellx.xib; sourceTree = "<group>"; };
+		DDB9359412AB3287003B9E68 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		DDB9359512AB3287003B9E68 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		DDB9359912AB33B6003B9E68 /* GeoCoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoCoder.h; sourceTree = "<group>"; };
+		DDB9359A12AB33B6003B9E68 /* GeoCoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoCoder.m; sourceTree = "<group>"; };
+		DDB9383212AC614A003B9E68 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		DDB9383312AC614A003B9E68 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		DDEA5E131294B9BE005ACF4D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DDEA655A12989718005ACF4D /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		DDEA655B12989718005ACF4D /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		DDEA655C12989718005ACF4D /* NavigationController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavigationController.xib; sourceTree = "<group>"; };
+		DDEA68381299B92F005ACF4D /* LocAcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocAcc.h; sourceTree = "<group>"; };
+		DDEA68391299B92F005ACF4D /* LocAcc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocAcc.m; sourceTree = "<group>"; };
+		DDEA6AFA129EFD17005ACF4D /* AccountDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountDetailsViewController.h; sourceTree = "<group>"; };
+		DDEA6AFB129EFD17005ACF4D /* AccountDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountDetailsViewController.m; sourceTree = "<group>"; };
+		DDEA6AFC129EFD17005ACF4D /* AccountDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountDetailsViewController.xib; sourceTree = "<group>"; };
+		DDEA6BD8129F2831005ACF4D /* GetImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetImage.h; sourceTree = "<group>"; };
+		DDEA6BD9129F2831005ACF4D /* GetImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetImage.m; sourceTree = "<group>"; };
+		DDEA6C4C129F3B97005ACF4D /* AccountImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountImageViewController.h; sourceTree = "<group>"; };
+		DDEA6C4D129F3B97005ACF4D /* AccountImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountImageViewController.m; sourceTree = "<group>"; };
+		DDEA6C4E129F3B97005ACF4D /* AccountImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountImageViewController.xib; sourceTree = "<group>"; };
+		DDEA6EF612A06B5F005ACF4D /* WinAHoneymoonForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinAHoneymoonForm.h; sourceTree = "<group>"; };
+		DDEA6EF712A06B5F005ACF4D /* WinAHoneymoonForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinAHoneymoonForm.m; sourceTree = "<group>"; };
+		DDEA6EF812A06B5F005ACF4D /* WinAHoneymoonForm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WinAHoneymoonForm.xib; sourceTree = "<group>"; };
+		DDEA70FA12A2217B005ACF4D /* AccountEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountEmail.h; sourceTree = "<group>"; };
+		DDEA70FB12A2217B005ACF4D /* AccountEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountEmail.m; sourceTree = "<group>"; };
+		DDEA70FC12A2217B005ACF4D /* AccountEmail.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountEmail.xib; sourceTree = "<group>"; };
+		DDEA72C012A32C3B005ACF4D /* AccountMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountMap.h; sourceTree = "<group>"; };
+		DDEA72C112A32C3B005ACF4D /* AccountMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountMap.m; sourceTree = "<group>"; };
+		DDEA72C212A32C3B005ACF4D /* AccountMap.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountMap.xib; sourceTree = "<group>"; };
+		DDFE98B3128F1455001EF10F /* AboutUs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutUs.h; path = Classes/AboutUs.h; sourceTree = "<group>"; };
+		DDFE98B4128F1455001EF10F /* AboutUs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutUs.m; path = Classes/AboutUs.m; sourceTree = "<group>"; };
+		DDFE98B5128F1455001EF10F /* AboutUs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutUs.xib; path = Classes/AboutUs.xib; sourceTree = "<group>"; };
+		DDFE9942128F39CA001EF10F /* redButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redButton.png; sourceTree = "<group>"; };
+		DDFE9E56128F5165001EF10F /* SearchSiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchSiteViewController.h; path = Classes/SearchSiteViewController.h; sourceTree = "<group>"; };
+		DDFE9E57128F5165001EF10F /* SearchSiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchSiteViewController.m; path = Classes/SearchSiteViewController.m; sourceTree = "<group>"; };
+		DDFE9E58128F5165001EF10F /* SearchSiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SearchSiteViewController.xib; path = Classes/SearchSiteViewController.xib; sourceTree = "<group>"; };
+		DDFE9E8D128F54D3001EF10F /* SearchCountyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchCountyViewController.h; path = Classes/SearchCountyViewController.h; sourceTree = "<group>"; };
+		DDFE9E8E128F54D3001EF10F /* SearchCountyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchCountyViewController.m; path = Classes/SearchCountyViewController.m; sourceTree = "<group>"; };
+		DDFE9E8F128F54D3001EF10F /* SearchCountyViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SearchCountyViewController.xib; path = Classes/SearchCountyViewController.xib; sourceTree = "<group>"; };
+		DDFE9EF5128F5F6E001EF10F /* WinAHoneymoonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WinAHoneymoonViewController.h; sourceTree = "<group>"; };
+		DDFE9EF6128F5F6E001EF10F /* WinAHoneymoonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WinAHoneymoonViewController.m; sourceTree = "<group>"; };
+		DDFE9EF7128F5F6E001EF10F /* WinAHoneymoonViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WinAHoneymoonViewController.xib; sourceTree = "<group>"; };
+		DDFE9EFA128F5F8A001EF10F /* SearchServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchServicesViewController.h; sourceTree = "<group>"; };
+		DDFE9EFB128F5F8A001EF10F /* SearchServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchServicesViewController.m; sourceTree = "<group>"; };
+		DDFE9EFC128F5F8A001EF10F /* SearchServicesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchServicesViewController.xib; sourceTree = "<group>"; };
+		DDFE9EFF128F5FA6001EF10F /* SearchCaterersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCaterersViewController.h; sourceTree = "<group>"; };
+		DDFE9F00128F5FA6001EF10F /* SearchCaterersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCaterersViewController.m; sourceTree = "<group>"; };
+		DDFE9F01128F5FA6001EF10F /* SearchCaterersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchCaterersViewController.xib; sourceTree = "<group>"; };
+		DDFE9F2F128F6318001EF10F /* FindABridalShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindABridalShowViewController.h; sourceTree = "<group>"; };
+		DDFE9F30128F6318001EF10F /* FindABridalShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindABridalShowViewController.m; sourceTree = "<group>"; };
+		DDFE9F31128F6318001EF10F /* FindABridalShowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FindABridalShowViewController.xib; sourceTree = "<group>"; };
+		DDFE9F67128F956D001EF10F /* WebServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebServices.h; sourceTree = "<group>"; };
+		DDFE9F68128F956D001EF10F /* WebServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebServices.m; sourceTree = "<group>"; };
+		DDFEA19712908BE4001EF10F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DDFEA19812908BE4001EF10F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		DDFEA1B712908D74001EF10F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DDFEA2A71290A5F6001EF10F /* County.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = County.h; sourceTree = "<group>"; };
+		DDFEA2A81290A5F6001EF10F /* County.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = County.m; sourceTree = "<group>"; };
+		DDFEA49712922A40001EF10F /* SelectSiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectSiteViewController.h; sourceTree = "<group>"; };
+		DDFEA49812922A40001EF10F /* SelectSiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectSiteViewController.m; sourceTree = "<group>"; };
+		DDFEA49912922A40001EF10F /* SelectSiteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectSiteViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				DDFEA1B812908D74001EF10F /* SystemConfiguration.framework in Frameworks */,
+				DD415C0712FDA7B200E4B983 /* IOKit.framework in Frameworks */,
+				DD415E80130382EC00E4B983 /* CoreGraphics.framework in Frameworks */,
+				DD415E9F1303830300E4B983 /* MapKit.framework in Frameworks */,
+				DD415EAB1303831D00E4B983 /* MessageUI.framework in Frameworks */,
+				DD415F051303834700E4B983 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* Locations_MagazineAppDelegate.h */,
+				1D3623250D0F684500981E51 /* Locations_MagazineAppDelegate.m */,
+			);
+			name = AppDelegate;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Event Locations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEA4C912922EE1001EF10F /* Helpers */,
+				DDFEA2A61290A5E5001EF10F /* Models */,
+				DDFE9E55128F512D001EF10F /* View Controller */,
+				080E96DDFE201D6D7F000001 /* AppDelegate */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Locations_Magazine_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DD41481912E247D700E4B983 /* Icons */,
+				DDFE9941128F39C0001EF10F /* Images */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Locations_Magazine-Info.plist */,
+				DD3DF8061314C38500A31D39 /* rules.html */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				DDFEA1B712908D74001EF10F /* SystemConfiguration.framework */,
+				DD415C0612FDA7B200E4B983 /* IOKit.framework */,
+				DD415E7F130382EC00E4B983 /* CoreGraphics.framework */,
+				DD415E9E1303830300E4B983 /* MapKit.framework */,
+				DD415EAA1303831D00E4B983 /* MessageUI.framework */,
+				DD415F041303834700E4B983 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3DF80D1314C3AB00A31D39 /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DF8081314C3A500A31D39 /* RulesAndRegulations.h */,
+				DD3DF8091314C3A500A31D39 /* RulesAndRegulations.m */,
+				DD3DF80A1314C3A500A31D39 /* RulesAndRegulations.xib */,
+			);
+			name = Rules;
+			sourceTree = "<group>";
+		};
+		DD41456B12DA712000E4B983 /* Scroll */ = {
+			isa = PBXGroup;
+			children = (
+				DD41459F12DA76DC00E4B983 /* AccountScrollView.h */,
+				DD4145A012DA76DC00E4B983 /* AccountScrollView.m */,
+				DD4145A112DA76DC00E4B983 /* AccountScrollView.xib */,
+			);
+			name = Scroll;
+			sourceTree = "<group>";
+		};
+		DD41481912E247D700E4B983 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DD6528DB13272B3300CD2614 /* Icon-72.png */,
+				DD6528DC13272B3300CD2614 /* Icon.png */,
+				DD6528DD13272B3300CD2614 /* Icon@2x.png */,
+			);
+			name = Icons;
+			sourceTree = "<group>";
+		};
+		DD41487D12E394DC00E4B983 /* BridalShowMap */ = {
+			isa = PBXGroup;
+			children = (
+				DD41487E12E3951500E4B983 /* BridalShowMap.h */,
+				DD41487F12E3951500E4B983 /* BridalShowMap.m */,
+				DD41488012E3951500E4B983 /* BridalShowMap.xib */,
+			);
+			name = BridalShowMap;
+			sourceTree = "<group>";
+		};
+		DD4148D812E3B69E00E4B983 /* HoneymoonView */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE9EF7128F5F6E001EF10F /* WinAHoneymoonViewController.xib */,
+				DDFE9EF5128F5F6E001EF10F /* WinAHoneymoonViewController.h */,
+				DDFE9EF6128F5F6E001EF10F /* WinAHoneymoonViewController.m */,
+			);
+			name = HoneymoonView;
+			sourceTree = "<group>";
+		};
+		DD9765E312C6E2F900687706 /* BridalShowList */ = {
+			isa = PBXGroup;
+			children = (
+				DD9765E412C6E31E00687706 /* BridalShowsList.h */,
+				DD9765E512C6E31E00687706 /* BridalShowsList.m */,
+				DD9765E612C6E31E00687706 /* BridalShowsList.xib */,
+				DD97693E12C84ACC00687706 /* Cellx.xib */,
+			);
+			name = BridalShowList;
+			sourceTree = "<group>";
+		};
+		DD9765E912C6E32800687706 /* BridalShowDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DD9765EA12C6E34300687706 /* BridalShowDetails.h */,
+				DD9765EB12C6E34300687706 /* BridalShowDetails.m */,
+				DD9765EC12C6E34300687706 /* BridalShowDetails.xib */,
+			);
+			name = BridalShowDetails;
+			sourceTree = "<group>";
+		};
+		DDEA654A1298966B005ACF4D /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA655A12989718005ACF4D /* NavigationController.h */,
+				DDEA655B12989718005ACF4D /* NavigationController.m */,
+				DDEA655C12989718005ACF4D /* NavigationController.xib */,
+			);
+			name = NavigationController;
+			sourceTree = "<group>";
+		};
+		DDEA703812A1BB07005ACF4D /* SearchSite */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE9E58128F5165001EF10F /* SearchSiteViewController.xib */,
+				DDFE9E56128F5165001EF10F /* SearchSiteViewController.h */,
+				DDFE9E57128F5165001EF10F /* SearchSiteViewController.m */,
+			);
+			name = SearchSite;
+			sourceTree = "<group>";
+		};
+		DDEA703912A1BB1F005ACF4D /* SearchCounty */ = {
+			isa = PBXGroup;
+			children = (
+				DD41456B12DA712000E4B983 /* Scroll */,
+				DDEA703D12A1BB89005ACF4D /* SelectSite */,
+				DDFE9E8F128F54D3001EF10F /* SearchCountyViewController.xib */,
+				DDFE9E8D128F54D3001EF10F /* SearchCountyViewController.h */,
+				DDFE9E8E128F54D3001EF10F /* SearchCountyViewController.m */,
+			);
+			name = SearchCounty;
+			sourceTree = "<group>";
+		};
+		DDEA703A12A1BB32005ACF4D /* AboutUs */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE98B5128F1455001EF10F /* AboutUs.xib */,
+				DDFE98B3128F1455001EF10F /* AboutUs.h */,
+				DDFE98B4128F1455001EF10F /* AboutUs.m */,
+			);
+			name = AboutUs;
+			sourceTree = "<group>";
+		};
+		DDEA703B12A1BB45005ACF4D /* WinAHoneymoon */ = {
+			isa = PBXGroup;
+			children = (
+				DD3DF80D1314C3AB00A31D39 /* Rules */,
+				DD4148D812E3B69E00E4B983 /* HoneymoonView */,
+				DDEA703E12A1BBA5005ACF4D /* WinAHoneymoonForm */,
+				DD4148D912E3B6AC00E4B983 /* HoneymoonView.h */,
+				DD4148DA12E3B6AC00E4B983 /* HoneymoonView.m */,
+				DD4148DB12E3B6AC00E4B983 /* HoneymoonView.xib */,
+			);
+			name = WinAHoneymoon;
+			sourceTree = "<group>";
+		};
+		DDEA703C12A1BB6B005ACF4D /* AccountDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA72BB12A32C0C005ACF4D /* Account Map */,
+				DDEA70F912A22160005ACF4D /* Account Email */,
+				DDEA6C4E129F3B97005ACF4D /* AccountImageViewController.xib */,
+				DDEA6AFC129EFD17005ACF4D /* AccountDetailsViewController.xib */,
+				DDEA6AFA129EFD17005ACF4D /* AccountDetailsViewController.h */,
+				DDEA6AFB129EFD17005ACF4D /* AccountDetailsViewController.m */,
+				DDEA6C4C129F3B97005ACF4D /* AccountImageViewController.h */,
+				DDEA6C4D129F3B97005ACF4D /* AccountImageViewController.m */,
+			);
+			name = AccountDetails;
+			sourceTree = "<group>";
+		};
+		DDEA703D12A1BB89005ACF4D /* SelectSite */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEA49912922A40001EF10F /* SelectSiteViewController.xib */,
+				DDFEA49712922A40001EF10F /* SelectSiteViewController.h */,
+				DDFEA49812922A40001EF10F /* SelectSiteViewController.m */,
+			);
+			name = SelectSite;
+			sourceTree = "<group>";
+		};
+		DDEA703E12A1BBA5005ACF4D /* WinAHoneymoonForm */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA6EF612A06B5F005ACF4D /* WinAHoneymoonForm.h */,
+				DDEA6EF712A06B5F005ACF4D /* WinAHoneymoonForm.m */,
+				DDEA6EF812A06B5F005ACF4D /* WinAHoneymoonForm.xib */,
+			);
+			name = WinAHoneymoonForm;
+			sourceTree = "<group>";
+		};
+		DDEA703F12A1BBCC005ACF4D /* SearchServices */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE9EFC128F5F8A001EF10F /* SearchServicesViewController.xib */,
+				DDFE9EFA128F5F8A001EF10F /* SearchServicesViewController.h */,
+				DDFE9EFB128F5F8A001EF10F /* SearchServicesViewController.m */,
+			);
+			name = SearchServices;
+			sourceTree = "<group>";
+		};
+		DDEA704012A1BBD8005ACF4D /* SearchCaterers */ = {
+			isa = PBXGroup;
+			children = (
+				DDFE9F01128F5FA6001EF10F /* SearchCaterersViewController.xib */,
+				DDFE9EFF128F5FA6001EF10F /* SearchCaterersViewController.h */,
+				DDFE9F00128F5FA6001EF10F /* SearchCaterersViewController.m */,
+			);
+			name = SearchCaterers;
+			sourceTree = "<group>";
+		};
+		DDEA704112A1BBEC005ACF4D /* FindBridalShow */ = {
+			isa = PBXGroup;
+			children = (
+				DD41487D12E394DC00E4B983 /* BridalShowMap */,
+				DD9765E912C6E32800687706 /* BridalShowDetails */,
+				DD9765E312C6E2F900687706 /* BridalShowList */,
+				DDFE9F31128F6318001EF10F /* FindABridalShowViewController.xib */,
+				DDFE9F2F128F6318001EF10F /* FindABridalShowViewController.h */,
+				DDFE9F30128F6318001EF10F /* FindABridalShowViewController.m */,
+			);
+			name = FindBridalShow;
+			sourceTree = "<group>";
+		};
+		DDEA704212A1BC16005ACF4D /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2899E5210DE3E06400AC0155 /* Locations_MagazineViewController.xib */,
+				28D7ACF60DDB3853001CB0EB /* Locations_MagazineViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* Locations_MagazineViewController.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		DDEA70F912A22160005ACF4D /* Account Email */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA70FA12A2217B005ACF4D /* AccountEmail.h */,
+				DDEA70FB12A2217B005ACF4D /* AccountEmail.m */,
+				DDEA70FC12A2217B005ACF4D /* AccountEmail.xib */,
+			);
+			name = "Account Email";
+			sourceTree = "<group>";
+		};
+		DDEA72BB12A32C0C005ACF4D /* Account Map */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA72C012A32C3B005ACF4D /* AccountMap.h */,
+				DDEA72C112A32C3B005ACF4D /* AccountMap.m */,
+				DDEA72C212A32C3B005ACF4D /* AccountMap.xib */,
+			);
+			name = "Account Map";
+			sourceTree = "<group>";
+		};
+		DDFE9941128F39C0001EF10F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DD415ACB12F8FBF800E4B983 /* mention.png */,
+				DD414E7D12EA606D00E4B983 /* Loc-background.png */,
+				DD97640D12BEA6EE00687706 /* yellow-hover.png */,
+				DD97640E12BEA6EE00687706 /* yellow.png */,
+				DD97640612BEA62800687706 /* green-hover.png */,
+				DD97640712BEA62800687706 /* green.png */,
+				DD9763FD12BEA31200687706 /* blue-hover.png */,
+				DD9763FE12BEA31200687706 /* blue.png */,
+				DD9763D212BE900900687706 /* bridalshowthumb.jpg */,
+				DD9763BC12BE8B8F00687706 /* SuperClubsWin.png */,
+				DDEA5E131294B9BE005ACF4D /* Default.png */,
+				DDFE9942128F39CA001EF10F /* redButton.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DDFE9E55128F512D001EF10F /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDEA654A1298966B005ACF4D /* NavigationController */,
+				DDEA704212A1BC16005ACF4D /* Main */,
+				DDEA704112A1BBEC005ACF4D /* FindBridalShow */,
+				DDEA704012A1BBD8005ACF4D /* SearchCaterers */,
+				DDEA703F12A1BBCC005ACF4D /* SearchServices */,
+				DDEA703C12A1BB6B005ACF4D /* AccountDetails */,
+				DDEA703B12A1BB45005ACF4D /* WinAHoneymoon */,
+				DDEA703A12A1BB32005ACF4D /* AboutUs */,
+				DDEA703912A1BB1F005ACF4D /* SearchCounty */,
+				DDEA703812A1BB07005ACF4D /* SearchSite */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		DDFEA2A61290A5E5001EF10F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DDFEA2A71290A5F6001EF10F /* County.h */,
+				DDFEA2A81290A5F6001EF10F /* County.m */,
+				DDEA68381299B92F005ACF4D /* LocAcc.h */,
+				DDEA68391299B92F005ACF4D /* LocAcc.m */,
+				DD97657512C576D500687706 /* BridalCompanies.h */,
+				DD97657612C576D500687706 /* BridalCompanies.m */,
+				DD9765F212C70A9700687706 /* BridalShows.h */,
+				DD9765F312C70A9700687706 /* BridalShows.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DDFEA4C912922EE1001EF10F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DDB9383212AC614A003B9E68 /* RegexKitLite.h */,
+				DDB9383312AC614A003B9E68 /* RegexKitLite.m */,
+				DDFE9F67128F956D001EF10F /* WebServices.h */,
+				DDFE9F68128F956D001EF10F /* WebServices.m */,
+				DDFEA19712908BE4001EF10F /* Reachability.h */,
+				DDFEA19812908BE4001EF10F /* Reachability.m */,
+				DDEA6BD8129F2831005ACF4D /* GetImage.h */,
+				DDEA6BD9129F2831005ACF4D /* GetImage.m */,
+				DDB9359412AB3287003B9E68 /* Annotation.h */,
+				DDB9359512AB3287003B9E68 /* Annotation.m */,
+				DDB9359912AB33B6003B9E68 /* GeoCoder.h */,
+				DDB9359A12AB33B6003B9E68 /* GeoCoder.m */,
+				DD97630B12BD62FC00687706 /* GetTextData.h */,
+				DD97630C12BD62FC00687706 /* GetTextData.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Event Locations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Event Locations" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Event Locations";
+			productName = "Locations Magazine";
+			productReference = 1D6058910D05DD3D006BFB54 /* Event Locations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = EventLocations.us;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Locations Magazine" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Event Locations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* Locations_MagazineViewController.xib in Resources */,
+				DDFE98B7128F1455001EF10F /* AboutUs.xib in Resources */,
+				DDFE9943128F39CA001EF10F /* redButton.png in Resources */,
+				DDFE9E5A128F5165001EF10F /* SearchSiteViewController.xib in Resources */,
+				DDFE9E91128F54D3001EF10F /* SearchCountyViewController.xib in Resources */,
+				DDFE9EF9128F5F6E001EF10F /* WinAHoneymoonViewController.xib in Resources */,
+				DDFE9EFE128F5F8A001EF10F /* SearchServicesViewController.xib in Resources */,
+				DDFE9F03128F5FA6001EF10F /* SearchCaterersViewController.xib in Resources */,
+				DDFE9F33128F6318001EF10F /* FindABridalShowViewController.xib in Resources */,
+				DDFEA49B12922A40001EF10F /* SelectSiteViewController.xib in Resources */,
+				DDEA5E141294B9BE005ACF4D /* Default.png in Resources */,
+				DDEA655E12989718005ACF4D /* NavigationController.xib in Resources */,
+				DDEA6AFE129EFD17005ACF4D /* AccountDetailsViewController.xib in Resources */,
+				DDEA6C50129F3B97005ACF4D /* AccountImageViewController.xib in Resources */,
+				DDEA6EFA12A06B5F005ACF4D /* WinAHoneymoonForm.xib in Resources */,
+				DDEA70FE12A2217B005ACF4D /* AccountEmail.xib in Resources */,
+				DDEA72C412A32C3B005ACF4D /* AccountMap.xib in Resources */,
+				DD9763BD12BE8B8F00687706 /* SuperClubsWin.png in Resources */,
+				DD9763D312BE900900687706 /* bridalshowthumb.jpg in Resources */,
+				DD9763FF12BEA31200687706 /* blue-hover.png in Resources */,
+				DD97640012BEA31200687706 /* blue.png in Resources */,
+				DD97640812BEA62800687706 /* green-hover.png in Resources */,
+				DD97640912BEA62800687706 /* green.png in Resources */,
+				DD97640F12BEA6EE00687706 /* yellow-hover.png in Resources */,
+				DD97641012BEA6EE00687706 /* yellow.png in Resources */,
+				DD9765E812C6E31E00687706 /* BridalShowsList.xib in Resources */,
+				DD9765EE12C6E34300687706 /* BridalShowDetails.xib in Resources */,
+				DD97693F12C84ACC00687706 /* Cellx.xib in Resources */,
+				DD4145A312DA76DC00E4B983 /* AccountScrollView.xib in Resources */,
+				DD41488212E3951500E4B983 /* BridalShowMap.xib in Resources */,
+				DD4148DD12E3B6AC00E4B983 /* HoneymoonView.xib in Resources */,
+				DD414E7E12EA606D00E4B983 /* Loc-background.png in Resources */,
+				DD415ACC12F8FBF800E4B983 /* mention.png in Resources */,
+				DD3DF8071314C38500A31D39 /* rules.html in Resources */,
+				DD3DF80C1314C3A500A31D39 /* RulesAndRegulations.xib in Resources */,
+				DD6528DE13272B3300CD2614 /* Icon-72.png in Resources */,
+				DD6528DF13272B3300CD2614 /* Icon.png in Resources */,
+				DD6528E013272B3300CD2614 /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* Locations_MagazineAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* Locations_MagazineViewController.m in Sources */,
+				DDFE98B6128F1455001EF10F /* AboutUs.m in Sources */,
+				DDFE9E59128F5165001EF10F /* SearchSiteViewController.m in Sources */,
+				DDFE9E90128F54D3001EF10F /* SearchCountyViewController.m in Sources */,
+				DDFE9EF8128F5F6E001EF10F /* WinAHoneymoonViewController.m in Sources */,
+				DDFE9EFD128F5F8A001EF10F /* SearchServicesViewController.m in Sources */,
+				DDFE9F02128F5FA6001EF10F /* SearchCaterersViewController.m in Sources */,
+				DDFE9F32128F6318001EF10F /* FindABridalShowViewController.m in Sources */,
+				DDFE9F69128F956D001EF10F /* WebServices.m in Sources */,
+				DDFEA19912908BE4001EF10F /* Reachability.m in Sources */,
+				DDFEA2A91290A5F6001EF10F /* County.m in Sources */,
+				DDFEA49A12922A40001EF10F /* SelectSiteViewController.m in Sources */,
+				DDEA655D12989718005ACF4D /* NavigationController.m in Sources */,
+				DDEA683A1299B92F005ACF4D /* LocAcc.m in Sources */,
+				DDEA6AFD129EFD17005ACF4D /* AccountDetailsViewController.m in Sources */,
+				DDEA6BDA129F2831005ACF4D /* GetImage.m in Sources */,
+				DDEA6C4F129F3B97005ACF4D /* AccountImageViewController.m in Sources */,
+				DDEA6EF912A06B5F005ACF4D /* WinAHoneymoonForm.m in Sources */,
+				DDEA70FD12A2217B005ACF4D /* AccountEmail.m in Sources */,
+				DDEA72C312A32C3B005ACF4D /* AccountMap.m in Sources */,
+				DDB9359612AB3287003B9E68 /* Annotation.m in Sources */,
+				DDB9359B12AB33B6003B9E68 /* GeoCoder.m in Sources */,
+				DDB9383412AC614A003B9E68 /* RegexKitLite.m in Sources */,
+				DD97630D12BD62FC00687706 /* GetTextData.m in Sources */,
+				DD97657712C576D500687706 /* BridalCompanies.m in Sources */,
+				DD9765E712C6E31E00687706 /* BridalShowsList.m in Sources */,
+				DD9765ED12C6E34300687706 /* BridalShowDetails.m in Sources */,
+				DD9765F412C70A9700687706 /* BridalShows.m in Sources */,
+				DD4145A212DA76DC00E4B983 /* AccountScrollView.m in Sources */,
+				DD41488112E3951500E4B983 /* BridalShowMap.m in Sources */,
+				DD4148DC12E3B6AC00E4B983 /* HoneymoonView.m in Sources */,
+				DD3DF80B1314C3A500A31D39 /* RulesAndRegulations.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Locations_Magazine_Prefix.pch;
+				INFOPLIST_FILE = "Locations_Magazine-Info.plist";
+				PRODUCT_NAME = "Event Locations";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Locations_Magazine_Prefix.pch;
+				INFOPLIST_FILE = "Locations_Magazine-Info.plist";
+				PRODUCT_NAME = "Locations Magazine";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = "-licucore";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Event Locations";
+				SDKROOT = iphoneos4.3;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = i386;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joel SCHER";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "83086F89-3EAF-422D-B3B5-B52C310B73A6";
+				SDKROOT = iphoneos4.3;
+			};
+			name = Release;
+		};
+		DD415D8513024E2200E4B983 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joel SCHER";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-licucore";
+				PREBINDING = NO;
+				PRODUCT_NAME = "Event Locations";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "83086F89-3EAF-422D-B3B5-B52C310B73A6";
+				SDKROOT = iphoneos4.3;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		DD415D8613024E2200E4B983 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joel SCHER";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Locations_Magazine_Prefix.pch;
+				INFOPLIST_FILE = "Locations_Magazine-Info.plist";
+				PRODUCT_NAME = "Event Locations";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "83086F89-3EAF-422D-B3B5-B52C310B73A6";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Event Locations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				DD415D8613024E2200E4B983 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Locations Magazine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				DD415D8513024E2200E4B983 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
